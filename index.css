@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+html {
+  font-family: "Inter";
+}
+* {
+  box-sizing: border-box;
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  height: 3.9375rem;
+  padding: 0.5rem;
+}
+
+.menu-item-container {
+  display: none;
+}
+
+.sign- {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  color: #000000;
+}
+
+.logo {
+  width: 127px;
+  height: 2rem;
+  font-family: "inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 2rem;
+  color: #000000;
+}
+
+.upload-button {
+  padding: 1rem;
+  background-color: #ffffff;
+  border: 0.125rem solid black;
+  width: 135px;
+  height: 56px;
+  border-radius: 0.5rem;
+  color: black;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.main-header {
+  background: url(header-image.png),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.67) 0%, #ffffff 100%);
+  height: 42.0625rem;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+}
+.header-title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+}
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  line-height: 24px;
+}
+.header-description {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 8px 0;
+}
+.header-caption {
+  font-size: 14px;
+  font-weight: 300;
+  font-style: italic;
+}
+.image-search {
+  padding: 16px 0;
+}
+.image-search > input {
+  height: 56px;
+  width: 310px;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #828282;
+}
+.image-grid {
+  display: grid;
+  /* grid-template-columns: auto auto auto ;  */
+  align-items: center;
+  gap: 16px;
+  height: 673px;
+  width: 100%;
+  padding: 32px;
+
+  /* grid-template-rows: auto auto auto auto auto ;  */
+}
+.image-1 {
+  width: 312px;
+  height: 198px;
+}
+.image-2 {
+  width: 312px;
+  height: 528px;
+}
+.image-3 {
+  width: 312px;
+  height: 310px;
+}
+.image-4 {
+  width: 312px;
+  height: 528px;
+}
+.image-5 {
+  width: 312px;
+  height: 528px;
+}
+.image-6 {
+  width: 312px;
+  height: 310px;
+}
+.image-7 {
+  width: 312px;
+  height: 198px;
+}
+.image-8 {
+  width: 310px;
+  height: 310px;
+}
+.image-9 {
+  width: 310px;
+  height: 310px;
+}
+.image-10 {
+  width: 310px;
+  height: 528px;
+}
+.image-11 {
+  width: 310px;
+  height: 310px;
+}
+.image-12 {
+  width: 310px;
+  height: 310px;
+}
+.image-13 {
+  width: 310px;
+  height: 310px;
+}
+.image-14 {
+  width: 310px;
+  height: 310px;
+}
+.image-15 {
+  width: 310px;
+  height: 528px;
+}
+.image-16 {
+  width: 310px;
+  height: 528px;
+}
+.image-17 {
+  width: 310px;
+  height: 198px;
+}
+.image-18 {
+  width: 310px;
+  height: 528px;
+}
+.image-19 {
+  width: 310px;
+  height: 528px;
+}
+.image-20 {
+  width: 310px;
+  height: 310px;
+}
+.image-21 {
+  width: 310px;
+  height: 528px;
+}
+.image-22 {
+  width: 310px;
+  height: 198px;
+}
+.image-23 {
+  width: 310px;
+  height: 310px;
+}
+.image-24 {
+  width: 310px;
+  height: 198px;
+}
+.image-25 {
+  width: 310px;
+  height: 528px;
+}
+.image-26 {
+  width: 310px;
+  height: 310px;
+}
+.image-27 {
+  width: 310px;
+  height: 528px;
+}
+.image-28 {
+  width: 310px;
+  height: 198px;
+}
+.image-29 {
+  width: 310px;
+  height: 310px;
+}
+.image-30 {
+  width: 310px;
+  height: 528px;
+}
+
+/* FOR DESKTOPS AND TABLETS */
+@media screen and (min-width: 600px) {
+  .menu-item-container {
+    display: flex;
+    align-items: center;
+    width: 18.938rem;
+    justify-content: space-around;
+    font-weight: 400;
+  }
+  .hamburger-container {
+    display: none;
+  }
+  .navbar-container {
+    height: 0.4rem;
+    height: 5.5rem;
+  }
+  .image-search > input {
+    width: 644px;
+  }
+  .image-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    margin: 32px 32px;
+    height: 673px;
+    width: 100%;
+    gap: 1rem 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+}
